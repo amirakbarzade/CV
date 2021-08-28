@@ -24,17 +24,19 @@ body{
     background-color: black;
 } 
 .years{
-    font-size: small;
-    text-align: center;
-    color: rgb(78, 72, 72);
-    width: 50px;
-    height: 50px;
+    font-size: large;
+    align-items: center;
     background-color: rgb(28, 159, 199);
     border-radius: 50%;
 }
+.years span{
+  top: 30%;
+  left: 20%;
+  opacity: 0.9;
+}
 .line{
-    height: 2px;
-    background-color: rgb(73, 67, 67);
+    height: 4px;
+    background-color: rgb(151, 148, 148);
 }
 .education{
     margin: 50px 0;
